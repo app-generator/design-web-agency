@@ -1,0 +1,213 @@
+/*
+* Theme Design
+* Copyright AppSeed (https://appseed.us)
+* License MIT
+*/
+
+// Global Styling 
+@import "../variables.scss";
+
+html,
+body {
+    min-width: 360px;
+    min-height: 100vh;
+}
+
+body {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Poppins', sans-serif;
+    -ms-overflow-style: scrollbar;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+h1,
+.h1 {
+    font-size: 43px;
+    line-height: 45px;
+}
+
+h2,
+.h2 {
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 45px;
+}
+
+h3,
+.h3 {
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 41px;
+}
+
+h4,
+.h4 {
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 35px;
+}
+
+h5,
+.h5 {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+h6,
+.h6 {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+
+.btn {
+    font-weight: 600;
+    font-size: 17px;
+    letter-spacing: 2px;
+    line-height: 38px;
+    padding-left: 14px;
+    padding-right: 14px;
+    position: relative;
+
+    &:before {
+        content: "";
+        background-color: rgba(0, 0, 0, 0.1);
+        position: absolute;
+        width: 0;
+        height: 0;
+        left: 50%;
+        top: 50%;
+        opacity: 0;
+        transition: all 0.3s;
+        z-index: 1;
+    }
+
+    &:hover:before,
+    &.active:before {
+        width: calc(100% + 2px);
+        height: calc(100% + 2px);
+        left: -1px;
+        top: -1px;
+        border-radius: 50px;
+        opacity: 1;
+    }
+}
+
+.gradient-border {
+    height: 5px;
+    width: 100%;
+    background: linear-gradient(90deg, #02DDC4 6.68%, #00B9AC 55.68%, #FF7A00 100%, #00D2C4 100%);
+    display: block;
+}
+
+.reverse-gradient-border {
+    height: 5px;
+    width: 100%;
+    background: linear-gradient(-90deg, #02DDC4 6.68%, #00B9AC 55.68%, #FF7A00 100%, #00D2C4 100%);
+    display: block;
+}
+
+.badge {
+    color: $white;
+    font-weight: 600;
+    align-items: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 20px;
+    border: 1px solid rgba(215, 215, 215, 0.79);
+    border-radius: 12px;
+    padding: 7px 25px;
+    margin-bottom: 25px;
+}
+
+@media (min-width:992px) {
+
+    h1,
+    .h1 {
+        font-weight: 800;
+        font-size: 63px;
+        line-height: 65px;
+    }
+
+    h2,
+    .h2 {
+        font-weight: 700;
+        font-size: 58px;
+        line-height: 62px;
+    }
+
+    h3,
+    .h3 {
+        font-weight: 700;
+        font-size: 51px;
+        line-height: 61px;
+    }
+
+    h4,
+    .h4 {
+        font-weight: 700;
+        font-size: 37px;
+        line-height: 65px;
+    }
+
+    h5,
+    .h5 {
+        font-weight: 300;
+        font-size: 26px;
+        line-height: 28px;
+    }
+
+    h6,
+    .h6 {
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    /* width */
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+        background: $gray-900;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: $orange;
+    }
+}
+
+
+@media (min-width:1400px) {
+    .container-xxl {
+        max-width: 1460px;
+    }
+}
+
+.links {
+    color: $white;
+    text-decoration: none;
+}
+
+// Core Components 
+@import "header";
+@import "menu";
+@import "footer";

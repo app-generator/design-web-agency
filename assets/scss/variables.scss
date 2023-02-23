@@ -1,0 +1,76 @@
+/*
+* Variables
+* Copyright AppSeed (https://appseed.us)
+* License MIT
+*/
+$soft-background-color: #ffffff !default; // Testing
+$font-color : #67748e !default;
+$h-color: #344767 !default;
+
+// Color system
+$white: #fff !default;
+$gray-100 : #f8f9fa !default;
+$gray-200 : #EAEAEA !default;
+$gray-300: #81818B !default;
+$gray-400: #9C9C9C !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343434 !default;
+$gray-900: #0D0D11 !default;
+$black: #000 !default;
+// fusv-enable 
+$blue: #00B9AC !default;
+$indigo: #596CFF !default;
+$purple: #6f42c1 !default;
+$pink: #d63384 !default;
+$red: #F56565 !default;
+$orange: #FF7A00 !default;
+$yellow: #FBD38D !default;
+$green: #81E6D9 !default;
+$teal: #20c997 !default;
+$cyan: #00B9AC !default;
+
+// scss-docs-start colors-map
+$colors: (
+    "blue": $blue,
+    "indigo": $indigo,
+    "purple": $purple,
+    "pink": $pink,
+    "red": $red,
+    "orange": $orange,
+    "yellow": $yellow,
+    "green": $green,
+    "teal": $teal,
+    "cyan": $cyan,
+    "white": $white,
+    "gray": $gray-600,
+    "gray-dark": $gray-800,
+    ) !default;
+
+/*
+* Global Styling (edit below variables) 
+* Warn: once edited, the SCSS needs to be recompiled
+*/
+$primary:   #FF7A00 !default; // primary color
+$secondary: #00D2C4 !default; // secondary
+$info:      #17c1e8 !default; 
+$success:   #82d616 !default;
+$warning:   #fbcf33 !default;
+$danger:    #ea0606 !default;
+$light:     $gray-200 !default;
+$dark:      $h-color !default;
+// END Global Styling
+
+// scss-docs-start theme-colors-map
+$theme-colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+    "success": $success,
+    "info": $info,
+    "warning": $warning,
+    "danger": $danger,
+    "light": $light,
+    "dark": $dark,
+    "white": $white) !default;
+// scss-docs-end theme-colors-map
