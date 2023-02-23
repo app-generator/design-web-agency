@@ -1,0 +1,125 @@
+// =========================================================
+// * Footer Component
+// =========================================================
+.footer {
+    background-color: $gray-900;
+    padding-top: 70px;
+
+    .logo {
+        width: 178px;
+        height: 40px;
+        display: block;
+        margin-bottom: 43px;
+    }
+
+    .footer-title {
+        color: $white;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 30px;
+    }
+
+    .footer-menu {
+        .footer-listing {
+            padding: 0;
+            margin-bottom: 60px;
+
+            .footer-listing-item {
+                padding-bottom: 22px;
+
+                .footer-listing-item-link {
+                    color: $gray-400;
+                    font-weight: 300;
+                    font-size: 16px;
+                    line-height: 26px;
+                    text-decoration: none;
+
+                    &:hover {
+                        color: $primary
+                    }
+                }
+            }
+        }
+    }
+
+    .footer-text {
+        color: $gray-400;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 45px;
+    }
+
+    .social-links {
+        padding: 0 0 50px;
+
+        li {
+            padding: 8px;
+
+            a {
+                width: 36px;
+                height: 36px;
+                border-radius: 36px;
+                border: 1px solid rgba(129, 129, 139, 0.9);
+
+                &:hover {
+                    background-color: white;
+                    border-color: $white;
+                }
+            }
+        }
+    }
+
+    .subscribe {
+        .form-control {
+            border: 1px solid rgba(129, 129, 139, 0.3);
+            border-radius: 50px;
+            padding: 0 35px;
+            color: $white;
+        }
+    }
+
+    .copy-right {
+        color: $gray-400;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+        padding: 44px 0;
+        border-top: 1px solid rgba(129, 129, 139, 0.2);
+        max-width: 1280px;
+        margin: 40px auto 0;
+
+        a {
+            text-decoration: none;
+            color: $gray-400;
+
+            &:hover {
+                color: $primary;
+            }
+        }
+    }
+}
+
+@media (min-width:767px) {
+    .footer {
+        .copy-right {
+            margin: 50px auto 0;
+        }
+    }
+}
+
+@media (min-width:992px) {
+    .footer {
+        padding-top: 170px;
+
+        .subscribe {
+            width: 423px;
+
+            .footer-text {
+                max-width: 338px;
+            }
+        }
+    }
+}

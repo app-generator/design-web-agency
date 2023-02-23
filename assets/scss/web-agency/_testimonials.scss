@@ -1,0 +1,130 @@
+// =========================================================
+// * Testimonials Component
+// =========================================================
+.testimonials-section {
+    background-color: $gray-900;
+    padding: 100px 0;
+
+    .asset-img-figure {
+        right: 0;
+        top: 0;
+        z-index: 2;
+        max-width: 50%;
+        max-height: 465px;
+
+        .figure-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .testimonials-heading {
+        max-width: 700px;
+        padding-bottom: 56px;
+
+        .testimonials-heading-title {
+            margin-bottom: 35px;
+        }
+
+        .testimonials-heading-text {
+            color: $gray-400;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 27px;
+            margin-bottom: 0;
+        }
+    }
+
+    .testimonials-box {
+        background: rgba(129, 129, 139, 0.1);
+        border-radius: 30px;
+        padding: 64px 40px 80px;
+        min-height: 100%;
+
+        .client-card {
+            padding-bottom: 30px;
+
+            .client-card-img {
+                width: 68px;
+                height: 68px;
+
+                &.radius-tl {
+                    border-radius: 0px 68px 68px 68px;
+                }
+
+                &.radius-tr {
+                    border-radius: 68px 0px 68px 68px;
+                }
+
+                &.radius-br {
+                    border-radius: 68px 68px 0px 68px;
+                }
+
+                &.radius-bl {
+                    border-radius: 68px 68px 68px 0px;
+                }
+            }
+
+            .client-card-body {
+                padding-left: 16px;
+
+                .client-name {
+                    color: $white;
+                    font-weight: 300;
+                    font-size: 16px;
+                    line-height: 20px;
+                    margin-bottom: 10px;
+                }
+
+                .company-name {
+                    color: $gray-400;
+                    font-weight: 300;
+                    font-size: 14px;
+                    line-height: 18px;
+                    margin-bottom: 0px;
+                }
+            }
+        }
+
+        .testimonials-title {
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 45px;
+            margin-bottom: 37px;
+        }
+
+        .testimonials-text {
+            color: $gray-400;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 24px;
+            margin-bottom: 35px;
+        }
+
+        .star-item {
+            margin-right: 5px;
+        }
+
+    }
+}
+
+@media (min-width:992px) {
+    .testimonials-section {
+        .asset-img-figure {
+            max-width: 470px;
+        }
+
+        .testimonials-text {
+            max-width: 320px;
+        }
+    }
+}
+
+@media (min-width:1200px) {
+    .testimonials-section {
+        .asset-img-figure {
+            max-width: 50%;
+        }
+    }
+}

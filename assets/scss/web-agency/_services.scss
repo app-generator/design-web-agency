@@ -1,0 +1,221 @@
+// =========================================================
+// * Services Component
+// =========================================================
+.sevices-section {
+    .sevices-heading {
+        max-width: 930px;
+        width: 100%;
+        margin: 0 auto;
+
+        .sevices-heading-title {
+            margin-bottom: 13px;
+        }
+
+        .sevices-heading-text {
+            margin-bottom: 37px;
+        }
+    }
+
+    .dynamic-websites-figure {
+        width: 100%;
+
+        .figure-img {
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .our-sevices {
+        padding-top: 100px;
+        background-color: $black;
+
+        .asset-img-figure {
+            top: 0;
+            z-index: 2;
+            left: -200px;
+            right: 20%;
+            margin-right: 0;
+            transform: translate(0, -50%);
+
+            .figure-img {
+                max-width: 100%;
+                max-height: 513px;
+                object-fit: cover;
+            }
+        }
+
+        .services-img-outer {
+            position: relative;
+            overflow: hidden;
+            z-index: 3;
+
+            .figure-img {
+                object-fit: contain;
+                height: 100%;
+                max-width: 100%;
+            }
+        }
+
+        .heading-card {
+            z-index: 3;
+
+            .pattern {
+                width: 152px;
+                height: 122px;
+                margin-bottom: -40px;
+            }
+
+            .heading-card-title {
+                padding-bottom: 20px;
+            }
+
+            .heading-card-text {
+                color: $gray-400;
+                font-weight: 300;
+                font-size: 18px;
+                line-height: 27px;
+                margin-bottom: 50px;
+            }
+
+            .card-btn {
+                margin: 0 0 50px 0;
+            }
+        }
+
+        .services-card-outer {
+            .services-card-figure {
+                .figure-img {
+                    object-fit: cover;
+                    height: 100%;
+                    max-height: 670px;
+                    margin: 0 auto;
+                }
+            }
+
+            .services-card-inner {
+                padding: 50px 0;
+
+                .services-card-block {
+                    position: relative;
+                    z-index: 2;
+
+                    .services-card {
+                        background: rgba(129, 129, 139, 0.1);
+                        border-radius: 30px;
+                        padding: 55px 25px;
+                        margin-bottom: 32px;
+                        max-width: 100%;
+
+                        .services-card-icon {
+                            width: 75px;
+                            height: 75px;
+                            margin-bottom: 16px;
+                        }
+
+                        .services-card-title {
+                            font-weight: 400;
+                            font-size: 19px;
+                            line-height: 27px;
+                            padding-bottom: 10px;
+                        }
+
+                        .services-card-text {
+                            color: $gray-300;
+                            font-weight: 300;
+                            font-size: 16px;
+                            line-height: 24px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:576px) {
+    .sevices-section {
+        .our-sevices {
+            .heading-card {
+                .card-btn {
+                    margin: 0 -12px 98px -12px;
+
+                    .btn {
+                        min-width: 200px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:992px) {
+    .sevices-section {
+        .our-sevices {
+            .heading-card {
+                padding: 220px 40px 40px 40px;
+
+                .gradient-border {
+                    margin: 0px -40px;
+                    width: auto;
+                }
+
+                .pattern {
+                    margin-left: -40px;
+                }
+
+
+            }
+
+            .services-img-outer {
+                position: absolute;
+                left: 50%;
+                top: 50px;
+                margin-left: -450px;
+                right: 0;
+
+                .figure-img {
+                    position: relative;
+                    right: -200px;
+                }
+            }
+
+            .services-card-outer {
+                .services-card-inner {
+                    padding: 100px 0;
+
+                }
+
+                .services-card-figure {
+                    position: absolute;
+                    right: 0;
+                    left: 50%;
+                    bottom: 0;
+
+                    .figure-img {
+                        margin: 0;
+                        max-height: 870px;
+                    }
+                }
+            }
+        }
+
+    }
+
+    .heading-card {
+        min-height: 730px;
+        max-width: 550px;
+    }
+
+}
+
+@media (min-width:1440px) {
+    .sevices-section .our-sevices .asset-img-figure {
+        right: 50%;
+        left: auto;
+        margin-right: -670px;
+
+        .figure-img {
+            max-width: inherit;
+        }
+    }
+}

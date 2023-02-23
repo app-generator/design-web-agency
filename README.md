@@ -1,17 +1,17 @@
-# Core Bootstrap Project for `FIGMA`
+# [Web Agency Design](https://design-web-agency.appseed-srv1.com/) `FIGMA`
 
-Free Template styled with **Bootstrap** `v5.2.3` using a simple codebase and best practices.
+Free **[Web-Agency Design](https://github.com/app-generator/design-web-agency)** Template styled with **Bootstrap 5** using a simple codebase and best practices.
 
-- 👉 [DEMO HERE](#): `HTML DEMO`
-- 🛒 **[Buy Figma Project](#)**: `ONLY $19`, payment managed by `GUMROAD` 
-  - [See DEMO](#) - `FIGMA version`
+- 👉 [Web Agency Design](https://design-web-agency.appseed-srv1.com/): `HTML DEMO`
+- 🛒 **[Buy Figma project](https://appseed.gumroad.com/l/figma-web-agency)**: `ONLY $19`, payment managed by `GUMROAD` 
+  - [See DEMO](https://bit.ly/figma-web-agency) - `FIGMA version`
   - `Updates`: Lifetime
   - `Number of Projects`: Unlimited
 - 🚀 Free [Support](https://appseed.us/support/) via Email & Discord
 
 <br />
 
-> IMAGE here
+![Web Agency Design - Top](https://user-images.githubusercontent.com/51070104/216561979-82713829-f81d-41b6-9c53-019fe4b6e266.jpg)
 
 <br />
 
@@ -20,11 +20,16 @@ Free Template styled with **Bootstrap** `v5.2.3` using a simple codebase and bes
 - 🚀 [Bootstrap 5](https://www.admin-dashboards.com/bootstrap-5-templates/) 
 - ⚙️ `Gulp Tooling` (simple usage, no fancy tools)
 - ✅ **Easy Customization** (below files are already integrated)
-  - `Primary/secondary` colors in [variables.scss](#)
-  - `Add your own code` in [custom.scss](#)
+  - `Primary/secondary` colors in [variables.scss](https://github.com/app-generator/design-web-agency/blob/main/assets/scss/variables.scss)
+  - `Add your own code` in [custom.scss](https://github.com/app-generator/design-web-agency/blob/main/assets/scss/custom.scss)
 - ✅ Sections
-  - ✅ [Section_1](#), styled in [#](#)
-  - ✅ [Section_2](#), styled in [#](#)
+  - ✅ Top Section, styled in [scss/_header.scss](https://github.com/app-generator/design-web-agency/blob/main/assets/scss/web-agency/_header.scss)
+  - ✅ [Services](#sevices-section), styled in [scss/_services.scss](https://github.com/app-generator/design-web-agency/blob/main/assets/scss/web-agency/_services.scss)
+  - ✅ [Company Info](#company-section), styled in [scss/_info.scss](https://github.com/app-generator/design-web-agency/blob/main/assets/scss/web-agency/_info.scss)
+  - ✅ [Portfolio](#portfolio-section), styled in [scss/_portfolio.scss](https://github.com/app-generator/design-web-agency/blob/main/assets/scss/web-agency/_portfolio.scss)
+  - ✅ [Testimonials](#testimonials-section), styled in [scss/_testimonials.scss](https://github.com/app-generator/design-web-agency/blob/main/assets/scss/web-agency/_testimonials.scss)
+  - ✅ [Contact](#contact-section), styled in [scss/_contact.scss](https://github.com/app-generator/design-web-agency/blob/main/assets/scss/web-agency/_contact.scss)
+  - ✅ [Footer](#footer-section), styled in [scss/_footer.scss](https://github.com/app-generator/design-web-agency/blob/main/assets/scss/web-agency/_footer.scss)
 
 <br />
 
@@ -77,17 +82,35 @@ At this point, the new styles should be visible in the website.
 
 <br />
 
-## Section_1
+## Sevices Section
 
-> Section_1 screen here
+![Web Agency Design - Services](https://user-images.githubusercontent.com/51070104/216562164-d06d355a-c893-4183-a5dc-c06f8b92bd52.jpg)
 
 <br />
 
-## Section_2
+## Company Section
 
-> Section_2 screen here
+![Web Agency Design - Company Information](https://user-images.githubusercontent.com/51070104/216560056-9f1da822-4bc5-40b0-b289-d2bad2bd7e86.jpg)
+
+<br />
+
+## Portfolio Section
+
+![Web Agency Design - Portfolio](https://user-images.githubusercontent.com/51070104/216560091-c2145f70-a773-44b3-9615-c2d36cefb74a.jpg)
+
+<br />
+
+## Testimonials Section
+
+![Web Agency Design - Testimonials](https://user-images.githubusercontent.com/51070104/216560146-f2c8cebe-76c1-4b74-aea6-de7c10c7150a.jpg)
+
+<br />
+
+## Contact Section
+
+![Web Agency Design - Contact](https://user-images.githubusercontent.com/51070104/216564119-011a28a3-7125-4883-bef5-5ef1f6edce8e.jpg)
 
 <br />
 
 --- 
-Core Bootstrap Project for `FIGMA` - Open-Source project crafted by [AppSeed](https://appseed.us/).
+[Web Agency Design](https://bit.ly/figma-web-agency) for `FIGMA` - Open-Source project crafted by [AppSeed](https://appseed.us/).

@@ -14,7 +14,7 @@ var Paths = {
   HERE: './',
   DIST: 'dist/',
   CSS: './assets/css/',
-  SCSS_TOOLKIT_SOURCES: './assets/scss/app.scss',
+  SCSS_TOOLKIT_SOURCES: './assets/scss/web-agency.scss',
   SCSS: './assets/scss/**/**'
 };
 

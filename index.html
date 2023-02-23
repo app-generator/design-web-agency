@@ -53,21 +53,1272 @@
     <!-- CSS Files -->
     <link
       id="pagestyle"
-      href="./assets/css/app.css?v=1.0.0"
+      href="./assets/css/web-agency.css?v=1.0.0"
       rel="stylesheet"
     />
 
+    <!-- Video-Popup CSS -->
+    <link id="pagestyle" href="./assets/css/video-popup.css" rel="stylesheet" />
   </head>
 
-  <body>
+  <body
+    data-bs-spy="scroll"
+    data-bs-target="#navbar-example"
+    data-bs-offset="100"
+  >
+    <!-- wrapper -->
+    <div class="wrapper d-flex flex-column overflow-hidden">
+      <!-- Start Navbar -->
+      <nav class="navbar navbar-expand-lg position-fixed w-100">
+        <div class="container-xxl">
+          <!-- Logo -->
+          <a class="navbar-brand" href="#" title="Web Agency">
+            <img src="assets/img/logo.svg" alt="Web Agency" />
+          </a>
 
-    <!-- CODE HERE -->
+          <!-- Menu -->
+          <div
+            class="offcanvas offcanvas-start"
+            id="navbarOffcanvas"
+            data-bs-backdrop="false"
+            data-bs-scroll="true"
+          >
+            <div class="offcanvas-header">
+              <a class="navbar-brand" href="#" title="Web Agency">
+                <img src="assets/img/logo.svg" alt="Web Agency" />
+              </a>
+              <button
+                class="offcanvas-toggler"
+                type="button"
+                data-bs-dismiss="offcanvas"
+              >
+                <span class="line-1"></span>
+                <span class="line-2"></span>
+              </button>
+            </div>
+            <div
+              class="offcanvas-body d-lg-flex align-items-center justify-content-between"
+            >
+              <nav id="navbar-example" class="mx-lg-auto">
+                <ul class="nav nav-pills flex-column flex-lg-row">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#services-section">Services</a>
+                  </li>                  
+                  <li class="nav-item">
+                    <a class="nav-link" href="#company-info-section">Company</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#portfolio-section">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact-section">Contact Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link video-popup-btn"
+                      href="#video-modal"
+                      data-video-url="https://www.youtube.com/embed/wWY_clozJlU"
+                      >Video</a
+                    >
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
 
+          <!-- Get Started Btn -->
+          <a
+            class="links btn btn-primary rounded-pill ms-auto"
+            target="_blank"
+            href="https://github.com/app-generator/design-web-agency"
+            ><span class="text-white">Download</span></a
+          >
+
+          <!-- Navbar Toggle Btn -->
+          <button
+            class="navbar-toggler ms-3"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#navbarOffcanvas"
+            aria-controls="navbarOffcanvas"
+            aria-expanded="false"
+          >
+            <span class="line-1"></span>
+            <span class="line-2"></span>
+            <span class="line-3"></span>
+          </button>
+        </div>
+      </nav>
+      <!-- End Navbar -->
+
+      <!-- Main content -->
+      <main>
+        <!-- Start Top Section -->
+        <section id="home" class="top-section">
+          <div class="main-banner">
+            <figure class="figure d-block top-section-figure mb-0">
+              <img
+                class="figure-img img-fluid d-block mx-auto mb-0"
+                data-aos="zoom-in"
+                src="assets/img/banner-01.png"
+                alt=""
+              />
+            </figure>
+            <div class="container-xxl">
+              <div class="row g-0">
+                <div class="card bg-transparent border-0">
+                  <div class="card-body">
+                    <h1
+                      class="card-title text-white text-center"
+                      data-aos="fade-up"
+                      data-aos-delay="100"
+                    >
+                      Solutions For Your Business.
+                    </h1>
+                    <p
+                      class="card-text h5 text-white text-center"
+                      data-aos="fade-up"
+                      data-aos-delay="150"
+                    >
+                      We can help with Website Design and Development, SEO
+                      Services, and Hosting.
+                    </p>
+                  </div>
+                  <div
+                    class="card-footer px-0 border-0 d-flex justify-content-center"
+                  >
+                    <a
+                      href="#services-section"
+                      role="button"
+                      class="btn btn-primary rounded-pill mx-1 mx-sm-3"
+                      data-aos="fade-left"
+                    >
+                      <span class="text-white">Services</span>
+                    </a>
+                    <a
+                      href="#contact-section"
+                      role="button"
+                      class="btn btn-secondary rounded-pill mx-1 mx-sm-3"
+                      data-aos="fade-right"
+                    >
+                      <span class="links">Contact</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="enterprises-block py-4">
+            <div class="container-xxl">
+              <h6 class="enterprises-title text-center mb-3" data-aos="fade-up">
+                TRUSTED BY <span>startups</span> and large
+                <span>enterprises</span>
+              </h6>
+              <p
+                class="enterprises-text text-white text-center mb-1"
+                data-aos="fade-up"
+                data-aos-duration="500"
+              >
+                Help clients grow by providing smart digital solutions since
+                2015.
+              </p>
+              <ul
+                class="row justify-content-center overflow-hidden p-0 mb-0"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
+                <li class="col-6 col-md-4 col-lg col-xl-auto">
+                  <img
+                    src="assets/img/partners-logo-01.svg"
+                    alt="partners-logo"
+                    class="img-fluid"
+                  />
+                </li>
+                <li class="col-6 col-md-4 col-lg col-xl-auto">
+                  <img
+                    src="assets/img/partners-logo-02.svg"
+                    alt="partners-logo"
+                    class="img-fluid"
+                  />
+                </li>
+                <li class="col-6 col-md-4 col-lg col-xl-auto">
+                  <img
+                    src="assets/img/partners-logo-03.svg"
+                    alt="partners-logo"
+                    class="img-fluid"
+                  />
+                </li>
+                <li class="col-6 col-md-4 col-lg col-xl-auto">
+                  <img
+                    src="assets/img/partners-logo-04.svg"
+                    alt="partners-logo"
+                    class="img-fluid"
+                  />
+                </li>
+                <li class="col-6 col-md-4 col-lg col-xl-auto">
+                  <img
+                    src="assets/img/partners-logo-01.svg"
+                    alt="partners-logo"
+                    class="img-fluid"
+                  />
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <!-- End Top Section -->
+
+        <!-- Start Sevices Section -->
+        <section id="services-section" class="sevices-section overflow-hidden">
+          <div class="sevices-heading pt-4 px-3 text-center">
+            <span
+              class="gradient-border mb-2"
+              data-aos="flip-left"
+              data-aos-duration="500"
+            ></span>
+            <h2 class="sevices-heading-title text-primary" data-aos="zoom-in">
+              We Make Your Brand Alive With Dynamic Websites.
+            </h2>
+            <p
+              class="sevices-heading-text h5"
+              data-aos="zoom-up"
+              data-aos-duration="1000"
+            >
+              Driven by innovation and creativity.
+            </p>
+          </div>
+          <figure
+            class="figure top-section-figure dynamic-websites-figure mb-0 d-block"
+          >
+            <img
+              class="figure-img d-block mb-0"
+              data-aos="zoom-up"
+              data-aos-duration="2000"
+              src="assets/img/dynamic-websites-1.png"
+              alt=""
+            />
+          </figure>
+
+          <div class="our-sevices position-relative">
+            <figure
+              class="figure top-section-figure asset-img-figure position-absolute"
+            >
+              <img
+                class="figure-img d-block mb-0"
+                src="assets/img/asset-img-1.png"
+                alt=""
+              />
+            </figure>
+
+            <figure class="figure services-img-outer" data-aos="fade-right">
+              <img
+                src="assets/img/services-img.png"
+                class="figure-img img-fluid-02 m-0 d-block"
+                alt=""
+              />
+            </figure>
+
+            <div class="container-xxl">
+              <div class="row">
+                <div class="col-lg-auto order-lg-1">
+                  <div class="heading-card position-relative border-0">
+                    <img
+                      class="pattern"
+                      src="assets/img/pattern-1.svg"
+                      alt=""
+                    />
+                    <h3
+                      class="heading-card-title text-primary mb-0"
+                      data-aos="fade-up"
+                    >
+                      <span class="text-white">Our</span> Services
+                    </h3>
+                    <p
+                      class="heading-card-text"
+                      data-aos="fade-in"
+                      data-aos-duration="500"
+                    >
+                      We always develop long lasting partnerships with our
+                      clients to solve a diverse range of complex challenges.
+                    </p>
+                    <div class="card-btn d-flex">
+                      <a
+                        href="#portfolio-section"
+                        role="button"
+                        class="btn btn-primary rounded-pill mx-1 mx-sm-3"
+                        data-aos="fade-left"
+                      >
+                        <span class="text-white">Portfolio</span>
+                      </a>
+                      <a
+                        href="#contact-section"
+                        role="button"
+                        class="btn btn-secondary rounded-pill mx-1 mx-sm-3"
+                        data-aos="fade-right"
+                      >
+                        <span class="text-white">Contact</span>
+                      </a>
+                    </div>
+                    <span
+                      class="reverse-gradient-border"
+                      data-aos="flip-left"
+                    ></span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- card-services -->
+              <div class="services-card-outer">
+                <div class="row align-items-end">
+                  <div class="col-lg-7 col-xl-6">
+                    <div class="services-card-inner">
+                      <div class="row">
+                        <div class="col-sm-6">
+                          <div
+                            class="services-card-block mt-4 d-flex flex-column"
+                          >
+                            <div class="services-card" data-aos="zoom-in-left">
+                              <img
+                                class="services-card-icon"
+                                src="assets/img/website.svg"
+                                alt=""
+                              />
+                              <h6 class="services-card-title text-white mb-0">
+                                Website Design
+                              </h6>
+                              <p class="services-card-text mb-0">
+                                All products unique are manually crafted by
+                                design experts.
+                              </p>
+                            </div>
+                            <div class="services-card" data-aos="zoom-out-left">
+                              <img
+                                class="services-card-icon"
+                                src="assets/img/bug-fixes.svg"
+                                alt=""
+                              />
+                              <h6 class="card-services-title text-white mb-0">
+                                Support
+                              </h6>
+                              <p class="services-card-text mb-0">
+                                All our clients can reach us anytime via email
+                                and phone through a 24/7 schedule.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-sm-6">
+                          <div class="services-card-block d-flex flex-column">
+                            <div class="services-card" data-aos="zoom-in-right">
+                              <img
+                                class="services-card-icon"
+                                src="assets/img/development.svg"
+                                alt=""
+                              />
+                              <h6 class="services-card-title text-white mb-0">
+                                Website Development
+                              </h6>
+                              <p class="services-card-text mb-0">
+                                The projects are delivered using secure and
+                                modern Technologies like React, Python, and
+                                NodeJS.
+                              </p>
+                            </div>
+
+                            <div
+                              class="services-card"
+                              data-aos="zoom-out-right"
+                            >
+                              <img
+                                class="services-card-icon"
+                                src="assets/img/design.svg"
+                                alt=""
+                              />
+                              <h6 class="services-card-title text-white mb-0">
+                                SEO Services
+                              </h6>
+                              <p class="services-card-text mb-0">
+                                Clients are assisted in the long run with
+                                effective SEO services provided by experts.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <figure
+                  class="figure services-card-figure d-block mb-0"
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="center-bottom"
+                  data-aos-duration="2500"
+                >
+                  <img
+                    class="figure-img img-fluid d-block mb-0"
+                    src="assets/img/asset-img-2.png"
+                    alt=""
+                  />
+                </figure>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- End Sevices Section -->
+
+        <!-- Start Company Section -->
+        <section id="company-info-section" class="company-section">
+          <div class="container-xxl">
+            <div class="row">
+              <div class="col-lg-7">
+                <figure
+                  class="figure"
+                  data-aos="flip-left"
+                  data-aos-easing="ease-out-cubic"
+                  data-aos-duration="2000"
+                >
+                  <img
+                    class="figure-img img-fluid company-img-fluid d-block mb-0 mx-auto"
+                    src="assets/img/services-img-03.png"
+                    alt=""
+                  />
+                </figure>
+                <div class="row gy-4">
+                  <div class="col-md-6">
+                    <div
+                      class="company-services black-box"
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="top-bottom"
+                    >
+                      <h2 class="company-services-title">
+                        <span class="d-block">1k+</span>Websites
+                      </h2>
+                      <p class="company-services-text">
+                        Unique and creative products.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div
+                      class="company-services gray-box"
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="top-bottom"
+                    >
+                      <h2 class="company-services-title">
+                        <span class="d-block">100+</span>Clients
+                      </h2>
+                      <p class="company-services-text">
+                        More than 100 customers trusted our vision.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6">
+                    <div
+                      class="company-services gray-box bg-light"
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="top-bottom"
+                    >
+                      <h2 class="company-services-title">
+                        <span class="d-block">100%</span>Job Success
+                      </h2>
+                      <p class="company-services-text">
+                        Full assistance from idea to LIVE
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div
+                      class="company-services black-box"
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="top-bottom"
+                    >
+                      <h2 class="company-services-title">
+                        <span class="d-block">100%</span>Secure
+                      </h2>
+                      <p class="company-services-text">
+                        During the process, only secure technology are used and
+                        later deploy on blazing fast servers.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-5">
+                <div class="info-card">
+                  <h3 class="info-card-title text-primary" data-aos="fade-up">
+                    We are in the Business of Website Development since 2015.
+                  </h3>
+                  <p
+                    class="h6 info-card-text"
+                    data-aos="fade-up"
+                    data-aos-delay="150"
+                  >
+                    What sets us apart from other software outsourcing companies
+                    is not only the fact that we deliver highly skilled, well
+                    managed and cost-efficient services.
+                  </p>
+                  <div class="card-btn d-flex mb-5">
+                    <a
+                      href="#portfolio-section"
+                      role="button"
+                      class="btn btn-primary rounded-pill mx-1 mx-sm-3"
+                      data-aos="fade-left"
+                    >
+                      <span class="text-white">Portfolio</span>
+                    </a>
+                    <a
+                      href="#contact-section"
+                      role="button"
+                      class="btn btn-secondary rounded-pill mx-1 mx-sm-3"
+                      data-aos="fade-right"
+                    >
+                      <span class="text-white">Contact</span>
+                    </a>
+                  </div>
+                  <figure
+                    class="figure info-card-figure d-flex justify-content-center"
+                    data-aos="fade-up-left"
+                  >
+                    <img
+                      class="figure-img img-fluid d-block mb-0 mx-auto"
+                      src="assets/img/avatar-01.png"
+                      alt=""
+                    />
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- End Company Section -->
+
+        <!-- Start Portfolio Section -->
+        <section id="portfolio-section" class="portfolio-section">
+          <div class="portfolio-outer position-relative">
+            <span class="bg-text-l">PORTFOLIO</span>
+            <span class="bg-text-r">PORTFOLIO</span>
+            <div class="container-xxl">
+              <div class="portfolio-heading position-relative">
+                <h2 class="portfolio-heading-title text-center text-white">
+                  <span class="text-primary">Our Portfolio</span> of the
+                  Websites We have
+                  <span class="text-secondary">Designed & Developed.</span>
+                </h2>
+                <p class="portfolio-heading-text text-center text-white">
+                  Branded websites that match customers' vision - all unique.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Unique Design -->
+          <div class="project-block overflow-hidden">
+            <div
+              class="project-block-figure mx-auto d-lg-flex justify-content-center"
+            >
+              <figure
+                class="figure mb-0 d-block position-relative"
+                data-aos="zoom-out"
+              >
+                <img
+                  class="figure-img img-fluid d-block mb-0"
+                  src="assets/img/unique-img-01.jpg"
+                  alt=""
+                />
+                <div class="project-block-card position-absolute">
+                  <h4 class="project-block-card-title text-white text-center">
+                    Unique Design
+                  </h4>
+                  <p
+                    class="project-block-card-text text-white text-center mb-0"
+                  >
+                    Art, digital
+                  </p>
+                </div>
+              </figure>
+              <figure
+                class="figure mb-0 d-block position-relative"
+                data-aos="zoom-out"
+              >
+                <img
+                  class="figure-img img-fluid d-block mb-0"
+                  src="assets/img/unique-img-02.jpg"
+                  alt=""
+                />
+                <div class="project-block-card position-absolute">
+                  <h4 class="project-block-card-title text-white text-center">
+                    Unique Design
+                  </h4>
+                  <p
+                    class="project-block-card-text text-white text-center mb-0"
+                  >
+                    Art, digital
+                  </p>
+                </div>
+              </figure>
+              <div class="mb-0 d-lg-flex figure-outer flex-lg-column">
+                <figure
+                  class="figure d-block mb-0 position-relative h-50"
+                  data-aos="zoom-out"
+                >
+                  <img
+                    class="figure-img img-fluid d-block mb-0"
+                    src="assets/img/unique-img-03.jpg"
+                    alt=""
+                  />
+                  <div class="project-block-card position-absolute">
+                    <h4 class="project-block-card-title text-white text-center">
+                      Unique Design
+                    </h4>
+                    <p
+                      class="project-block-card-text text-white text-center mb-0"
+                    >
+                      Art, digital
+                    </p>
+                  </div>
+                </figure>
+                <figure
+                  class="figure d-block mb-0 position-relative h-50"
+                  data-aos="zoom-out"
+                >
+                  <img
+                    class="figure-img img-fluid d-block mb-0"
+                    src="assets/img/unique-img-04.jpg"
+                    alt=""
+                  />
+                  <div class="project-block-card position-absolute">
+                    <h4 class="project-block-card-title text-white text-center">
+                      Unique Design
+                    </h4>
+                    <p
+                      class="project-block-card-text text-white text-center mb-0"
+                    >
+                      Art, digital
+                    </p>
+                  </div>
+                </figure>
+              </div>
+
+              <figure
+                class="figure d-block mb-0 position-relative"
+                data-aos="zoom-out"
+              >
+                <img
+                  class="figure-img img-fluid d-block mb-0"
+                  src="assets/img/unique-img-05.jpg"
+                  alt=""
+                />
+                <div class="project-block-card position-absolute">
+                  <h4 class="project-block-card-title text-white text-center">
+                    Unique Design
+                  </h4>
+                  <p
+                    class="project-block-card-text text-white text-center mb-0"
+                  >
+                    Art, digital
+                  </p>
+                </div>
+              </figure>
+            </div>
+
+            <div
+              class="project-block-figure Website-block-figure d-flex justify-content-center"
+            >
+              <figure
+                class="figure d-block mb-0 position-relative"
+                data-aos="fade-up"
+                data-aos-duration="3000"
+              >
+                <img
+                  class="figure-img img-fluid d-block mb-0"
+                  src="assets/img/e-commerce-img.jpg"
+                  alt=""
+                />
+                <div class="project-block-card position-absolute">
+                  <h4 class="project-block-card-title text-white text-center">
+                    Website UI/UX Design
+                  </h4>
+                  <p
+                    class="project-block-card-text text-white text-center mb-0"
+                  >
+                    E-COMMERCE
+                  </p>
+                </div>
+              </figure>
+            </div>
+          </div>
+        </section>
+        <!--End Portfolio Section -->
+
+        <!-- Start Testimonials Section -->
+        <section class="testimonials-section position-relative">
+          <figure class="figure asset-img-figure position-absolute">
+            <img
+              class="figure-img img-fluid d-block mb-0"
+              src="assets/img/asset-img-4.png"
+              alt=""
+            />
+          </figure>
+          <div class="container-xl">
+            <div class="testimonials-heading">
+              <span class="badge bg-transparent">Testimonials</span>
+              <h3
+                class="testimonials-heading-title text-white"
+                data-aos="fade-up"
+              >
+                See what our <span class="text-primary">Clients</span> say
+              </h3>
+              <p
+                class="testimonials-heading-text"
+                data-aos="fade-up"
+                data-aos-duration="500"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim in eros elementum tristique. Duis
+                cursus, mi quis viverra ornare, eros dolor interdum nulla, ut
+                commodo diam libero.
+              </p>
+            </div>
+            <div class="row gy-4">
+              <div class="col-lg-4">
+                <div
+                  class="testimonials-box"
+                  data-aos="flip-left"
+                  data-aos-duration="500"
+                >
+                  <div class="client-card d-flex align-items-center">
+                    <img
+                      class="client-card-img radius-tl"
+                      src="assets/img/client-01.jpg"
+                      alt=""
+                    />
+                    <div class="client-card-body">
+                      <h6 class="client-name">Brad</h6>
+                      <p class="company-name">Stone Soup Tech</p>
+                    </div>
+                  </div>
+                  <h5 class="testimonials-title text-white">
+                    "I recommend this agency"
+                  </h5>
+                  <p class="testimonials-text">
+                    When I compare this team to the many other agencies I have
+                    used in the last 7 years, they completely and utterly
+                    destroy everyone else.
+                  </p>
+                  <div class="d-flex star-outer">
+                    <img
+                      class="star-item"
+                      src="assets/img/star.svg"
+                      alt="Star"
+                    />
+                    <img
+                      class="star-item"
+                      src="assets/img/star.svg"
+                      alt="Star"
+                    />
+                    <img
+                      class="star-item"
+                      src="assets/img/star.svg"
+                      alt="Star"
+                    />
+                    <img
+                      class="star-item"
+                      src="assets/img/star.svg"
+                      alt="Star"
+                    />
+                    <img
+                      class="star-item"
+                      src="assets/img/star.svg"
+                      alt="Star"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div
+                  class="testimonials-box"
+                  data-aos="flip-left"
+                  data-aos-duration="1000"
+                >
+                  <div class="client-card d-flex align-items-center">
+                    <img
+                      class="client-card-img radius-tr"
+                      src="assets/img/client-02.jpg"
+                      alt=""
+                    />
+                    <div class="client-card-body">
+                      <h6 class="client-name">Alice Smith</h6>
+                      <p class="company-name">Odin Development</p>
+                    </div>
+                  </div>
+                  <h5 class="testimonials-title text-white">
+                    "The support is awesome"
+                  </h5>
+                  <p class="testimonials-text">
+                    The agency offered me the flexibility to gradually build a
+                    complex admin panel for a large e-commerce platform.
+                  </p>
+                  <div class="d-flex star-outer">
+                    <img
+                      class="star-item"
+                      src="assets/img/star.svg"
+                      alt="Star"
+                    />
+                    <img
+                      class="star-item"
+                      src="assets/img/star.svg"
+                      alt="Star"
+                    />
+                    <img
+                      class="star-item"
+                      src="assets/img/star.svg"
+                      alt="Star"
+                    />
+                    <img
+                      class="star-item"
+                      src="assets/img/star.svg"
+                      alt="Star"
+                    />
+                    <img
+                      class="star-item"
+                      src="assets/img/star.svg"
+                      alt="Star"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div
+                  class="testimonials-box"
+                  data-aos="flip-left"
+                  data-aos-duration="1500"
+                >
+                  <div class="client-card d-flex align-items-center">
+                    <img
+                      class="client-card-img radius-br"
+                      src="assets/img/client-03.jpg"
+                      alt=""
+                    />
+                    <div class="client-card-body">
+                      <h6 class="client-name">Sophia Miller</h6>
+                      <p class="company-name">TPA Group</p>
+                    </div>
+                  </div>
+                  <h5 class="testimonials-title text-white">
+                    “A game changer for us”
+                  </h5>
+                  <p class="testimonials-text">
+                    They patiently managed expectations and assisted with
+                    implementation and after-launch support.
+                  </p>
+
+                  <div class="d-flex star-outer">
+                    <img
+                      class="star-item"
+                      src="assets/img/star.svg"
+                      alt="Star"
+                    />
+                    <img
+                      class="star-item"
+                      src="assets/img/star.svg"
+                      alt="Star"
+                    />
+                    <img
+                      class="star-item"
+                      src="assets/img/star.svg"
+                      alt="Star"
+                    />
+                    <img
+                      class="star-item"
+                      src="assets/img/star.svg"
+                      alt="Star"
+                    />
+                    <img
+                      class="star-item"
+                      src="assets/img/star.svg"
+                      alt="Star"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--End Testimonials Section -->
+
+        <!-- Start Contact Section -->
+        <section id="contact-section" class="contact-section">
+          <div class="container-xxl">
+            <div class="row">
+              <div class="col-lg">
+                <div class="contact-heading">
+                  <span class="badge bg-transparent">Contact Us</span>
+                  <h3
+                    class="contact-heading-title text-black"
+                    data-aos="fade-up"
+                  >
+                    Let's <span>Fire Up</span> Your Business!
+                  </h3>
+                  <p
+                    class="contact-heading-text"
+                    data-aos="fade-up"
+                    data-aos-duration="500"
+                  >
+                    You can't know until you talk to us. Below are plenty of
+                    ways to get in touch.
+                  </p>
+                </div>
+                <ul class="contact-info">
+                  <li>
+                    <a
+                      class="contact-info-item d-flex align-items-center"
+                      href="tel:+91-8054000000"
+                      data-aos="zoom-in"
+                    >
+                      <img
+                        class="contact-info-icon"
+                        src="assets/img/call.png"
+                        alt=""
+                      />
+                      +91- 80540 00000
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="contact-info-item d-flex align-items-center"
+                      href="mailto:Info@website.com"
+                      data-aos="zoom-in"
+                      data-aos-duration="500"
+                    >
+                      <img
+                        class="contact-info-icon"
+                        src="assets/img/email.png"
+                        alt=""
+                      />
+                      Info@website.com
+                    </a>
+                  </li>
+                  <li>
+                    <span
+                      class="contact-info-item d-flex align-items-center"
+                      data-aos="zoom-in"
+                      data-aos-duration="1000"
+                    >
+                      <img
+                        class="contact-info-icon"
+                        src="assets/img/map.png"
+                        alt=""
+                      />
+                      Plot 99, Industrial Area Phase 1, NY, USA.
+                    </span>
+                  </li>
+                </ul>
+                <div
+                  class="input-group mb-5 mb-xl-3"
+                  data-aos="zoom-in"
+                  data-aos-duration="1500"
+                >
+                  <button
+                    class="btn btn-secondary rounded-pill me-1"
+                    type="button"
+                  >
+                    <span class="text-white">Subscribe Now</span>
+                  </button>
+                  <input
+                    class="form-control border-0"
+                    type="text"
+                    placeholder="Please  Enter Your Email Address Here..."
+                  />
+                </div>
+              </div>
+              <div class="col-lg-auto">
+                <div class="row row-cols-2 justify-content-center">
+                  <figure
+                    class="figure mb-4 col-auto"
+                    data-aos="zoom-in-right"
+                    data-aos-duration="1500"
+                  >
+                    <img
+                      class="figure-img img-fluid d-block mb-0 avatar-1"
+                      src="assets/img/avatar-02.png"
+                      alt=""
+                    />
+                  </figure>
+                  <figure
+                    class="figure mb-0 col"
+                    data-aos="zoom-in-left"
+                    data-aos-duration="1000"
+                  >
+                    <img
+                      class="figure-img img-fluid d-block mb-0 mx-auto avatar-2"
+                      src="assets/img/avatar-03.png"
+                      alt=""
+                    />
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- End Contact Section -->
+      </main>
+      <!--End main content -->
+
+      <!-- Start Footer -->
+      <footer class="footer">
+        <div class="container-xxl">
+          <div class="row justify-content-between">
+            <div class="col-xl-4">
+              <a class="logo" href="#" title="Web Agency"
+                ><img
+                  src="assets/img/logo.svg"
+                  alt="Web Agency"
+                  data-aos="fade-up"
+              /></a>
+              <p class="footer-text" data-aos="fade-up">
+                From launching a new web or mobile service to bringing business
+                processes to the cloud or disrupting traditional industries.
+              </p>
+              <ul class="social-links d-flex">
+                <li>
+                  <a
+                    href="#"
+                    title="LinkedIn"
+                    class="d-flex align-items-center justify-content-center"
+                    data-aos="fade-up"
+                  >
+                    <img src="assets/img/ic-linkedin.svg" alt="linkedin" />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    title="Twitter"
+                    class="d-flex align-items-center justify-content-center"
+                    data-aos="fade-up"
+                  >
+                    <img src="assets/img/ic-twitter.svg" alt="twitter" />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    title="Facebook"
+                    class="d-flex align-items-center justify-content-center"
+                    data-aos="fade-up"
+                  >
+                    <img src="assets/img/ic-facebook.svg" alt="facebook" />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    title="YouTube"
+                    class="d-flex align-items-center justify-content-center"
+                    data-aos="fade-up"
+                  >
+                    <img src="assets/img/ic-youtube.svg" alt="youtube" />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    title="Instagram"
+                    class="d-flex align-items-center justify-content-center"
+                    data-aos="fade-up"
+                  >
+                    <img src="assets/img/ic-instagram.svg" alt="instagram" />
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-6 col-lg-auto">
+              <div
+                class="footer-menu"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
+                <h6 class="footer-title">Pages</h6>
+                <ul class="footer-listing">
+                  <li class="footer-listing-item">
+                    <a class="footer-listing-item-link" href="#" title="Home"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="footer-listing-item">
+                    <a
+                      class="footer-listing-item-link"
+                      href="#"
+                      title="Company info"
+                      >Company info</a
+                    >
+                  </li>
+                  <li class="footer-listing-item">
+                    <a
+                      class="footer-listing-item-link"
+                      href="#"
+                      title="Services"
+                      >Services</a
+                    >
+                  </li>
+                  <li class="footer-listing-item">
+                    <a class="footer-listing-item-link" href="#" title="Contact"
+                      >Contact</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-6 col-lg-auto">
+              <div
+                class="footer-menu"
+                data-aos="fade-up"
+                data-aos-duration="1500"
+              >
+                <h6 class="footer-title">Utility pages</h6>
+                <ul class="footer-listing">
+                  <li class="footer-listing-item">
+                    <a
+                      class="footer-listing-item-link"
+                      href="#"
+                      title="Instructions"
+                      >Instructions</a
+                    >
+                  </li>
+                  <li class="footer-listing-item">
+                    <a
+                      class="footer-listing-item-link"
+                      href="#"
+                      title="Style guide"
+                      >Style guide</a
+                    >
+                  </li>
+                  <li class="footer-listing-item">
+                    <a
+                      class="footer-listing-item-link"
+                      href="#"
+                      title="Licenses"
+                      >Licenses</a
+                    >
+                  </li>
+                  <li class="footer-listing-item">
+                    <a
+                      class="footer-listing-item-link"
+                      href="#"
+                      title="Changelog"
+                      >Changelog</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-lg-auto">
+              <div
+                class="subscribe"
+                data-aos="fade-up"
+                data-aos-duration="2000"
+              >
+                <h6 class="footer-title">Subscribe to our newsletter</h6>
+                <p class="footer-text">
+                  New themes, blog posts, marketplace journey. No spam.
+                </p>
+                <div class="d-flex">
+                  <input
+                    class="form-control bg-transparent"
+                    type="text"
+                    placeholder="Enter your email"
+                  />
+                  <button
+                    type="button"
+                    class="btn btn-primary rounded-pill ms-3"
+                  >
+                    <span class="text-white">Subscribe</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Copy right -->
+          <div class="copy-right">&copy; All Right Reserved - Your Company</div>
+        </div>
+      </footer>
+      <!-- End Footer -->
+    </div>
+
+    <!-- Start Video Modal -->
+    <div
+      class="modal fade video-popup"
+      id="video-modal"
+      tabindex="-1"
+      aria-labelledby="video-modalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+          <div class="modal-header py-2">
+            <div class="ms-auto d-flex align-items-center">
+              <button
+                type="button"
+                class="modal-toggle-btn d-none d-lg-block"
+                onclick="toggleView()"
+              >
+                <img
+                  src="assets/img/ic-minimize.svg"
+                  alt="minimize"
+                  class="minimize-icon"
+                />
+                <img
+                  src="assets/img/ic-maximize.svg"
+                  alt="maximize"
+                  class="maximize-icon"
+                />
+              </button>
+              <button
+                type="button"
+                class="btn-close btn-close-white m-0 ms-1"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+          </div>
+          <div class="modal-body p-0">
+            <iframe
+              id="video"
+              src="https://www.youtube.com/embed/SMKPKGW083c?enablejsapi=1"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Video Modal -->
+
+    <!--   Core JS Files   -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/cjs/popper.min.js"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/perfect-scrollbar@1.5.5/dist/perfect-scrollbar.min.js"></script>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- Theme JS -->
-    <script src="./assets/js/app.js"></script>
+    <script src="./assets/js/web-agency.js"></script>
 
+    <!-- Video-Popup JS -->
+    <script src="./assets/js/video-popup.js"></script>
+
+    <script>
+      // Custom page JS goes here (added by the users)
+      // Animate
+      AOS.init({
+        disable: "mobile",
+        delay: 150,
+        duration: 800,
+        once: true,
+      });
+    </script>
   </body>
 </html>

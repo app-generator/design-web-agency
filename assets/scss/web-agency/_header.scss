@@ -1,0 +1,55 @@
+// =========================================================
+// * Header Component
+// =========================================================
+.top-section {
+    .main-banner {
+        background: url("../img/banner-bg-01.jpg") no-repeat;
+        background-size: cover;
+        padding: 85px 0 18px;
+
+        .card {
+            max-width: 1080px;
+            margin: 0 auto;
+
+            .card-body {
+                padding: 0 0 24px 0;
+
+                .card-title {
+                    padding-bottom: 15px;
+                }
+            }
+        }
+
+    }
+
+    .enterprises-block {
+        background-color: $gray-900;
+
+        .enterprises-title {
+            color: $white;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 28px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+
+            span {
+                color: $primary
+            }
+        }
+
+        .enterprises-text {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 24px;
+        }
+    }
+}
+
+@media (min-width:576px) {
+    .top-section {
+        .btn {
+            min-width: 160px;
+        }
+    }
+}

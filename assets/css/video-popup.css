@@ -1,0 +1,69 @@
+/*
+* Video Popup - Styling
+* Copyright AppSeed (https://appseed.us)
+* License MIT
+*/
+
+.video-popup .modal-header {
+  background: #0d0d11;
+  border: 0;
+}
+.video-popup .btn-close {
+  box-shadow: none !important;
+}
+
+.video-popup iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.video-popup .modal-toggle-btn {
+  border: 0;
+  background: none;
+  padding: 8px;
+  opacity: 0.5;
+}
+.video-popup .modal-toggle-btn:hover {
+  opacity: 0.75;
+}
+
+.video-popup .modal-toggle-btn img {
+  display: block;
+  width: 16px;
+  height: 16px;
+}
+
+body:not(.smallscreen-mode) .video-popup .modal-toggle-btn .maximize-icon,
+.smallscreen-mode .video-popup .modal-toggle-btn .minimize-icon {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .video-popup {
+    transition: all 0.3s;
+    left: auto;
+    top: auto;
+    right: 0;
+    bottom: 0;
+  }
+  .modal-open.smallscreen-mode {
+    padding-right: 0 !important;
+    overflow: auto !important;
+  }
+  .modal-open.smallscreen-mode .video-popup {
+    width: 350px;
+    height: 250px;
+    right: 24px;
+    bottom: 24px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    padding: 0 !important;
+  }
+  .modal-open.smallscreen-mode .video-popup .modal-dialog {
+    width: 100%;
+  }
+  .modal-open.smallscreen-mode .modal-backdrop {
+    opacity: 0;
+    visibility: hidden;
+  }
+}

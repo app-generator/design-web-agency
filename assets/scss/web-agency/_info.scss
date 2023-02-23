@@ -1,0 +1,127 @@
+// =========================================================
+// * Info Component
+// =========================================================
+.company-section {
+    background: url("../img/asset-img-3.png") no-repeat;
+    background-position: center bottom;
+    background-size: contain;
+    padding: 38px 0 55px 0;
+
+    .company-img-fluid {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .company-services {
+        padding: 30px;
+        border-radius: 30px;
+
+        .figure-img {
+            object-fit: cover;
+            max-width: 100%;
+        }
+
+        .company-services-title {
+            margin-bottom: 16px;
+        }
+
+        .company-services-text {
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 27px;
+            margin-bottom: 0;
+        }
+
+        &.black-box {
+            background-color: $gray-900;
+
+            .company-services-title {
+                color: $primary;
+
+                span {
+                    color: $white;
+                }
+            }
+
+            .company-services-text {
+                color: $white;
+            }
+        }
+
+        &.gray-box {
+            background: rgba(45, 45, 45, 0.1);
+
+            .company-services-title {
+                color: $cyan;
+
+                span {
+                    color: $gray-800;
+                }
+            }
+
+            .company-services-text {
+                color: $black;
+            }
+        }
+
+        &.bg-light {
+            background-color: $gray-200;
+        }
+    }
+
+    .info-card {
+        padding-top: 50px;
+
+        .info-card-title {
+            margin-bottom: 34px;
+        }
+
+        .info-card-text {
+            color: $gray-900;
+            margin-bottom: 44px;
+        }
+
+        .figure-img {
+            object-fit: cover;
+            max-width: 100%;
+            border-radius: 0px 378px 378px 378px;
+        }
+
+    }
+}
+
+@media (min-width:576px) {
+    .info-card {
+        .card-btn {
+            margin: 0 -12px;
+
+            .btn {
+                min-width: 181px;
+            }
+        }
+    }
+}
+
+
+@media (min-width:992px) {
+    .company-section {
+        background-size: auto;
+
+        .company-services {
+            .company-services-title {
+                font-weight: 600;
+                font-size: 46px;
+                line-height: 54px;
+            }
+        }
+    }
+}
+
+@media (min-width:1440px) {
+    .company-section {
+        .info-card {
+            padding-top: 0px;
+            padding-left: 36px;
+        }
+    }
+}
