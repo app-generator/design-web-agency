@@ -1,4 +1,4 @@
-# [Web Agency Design](https://design-web-agency.appseed-srv1.com/) `FIGMA`
+# [Web Agency Design](https://design-web-agency.appseed-srv1.com/)
 
 Open-Source **[Web-Agency Design](https://github.com/app-generator/design-web-agency)** Template styled with **Bootstrap 5** using a simple codebase and best practices - Actively supported by [AppSeed](https://appseed.us/).
 
