@@ -11,13 +11,9 @@ Copyright (c) [App Generator](https://appseed.us/)
 
 <br />
 
-## You NOT are allowed to:
+## You are NOT allowed:
 
 - **Remove Footer Attribution**
-
-> Note: The above restrictions are removed by purchasing a license (one-time payment)
-
-- 
 
 <br />
 
