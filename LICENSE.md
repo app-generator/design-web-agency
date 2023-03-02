@@ -1,6 +1,8 @@
 # [Creative Commons Attribution 3.0 License](https://creativecommons.org/licenses/by/3.0/)
 
-Copyright (c) [App Generator](https://appseed.us/)
+Copyright (c) [AppSeed](https://appseed.us/)
+
+<br />
 
 ## You are allowed to:
 
