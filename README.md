@@ -119,4 +119,4 @@ At this point, the new styles should be visible in the website.
 <br />
 
 --- 
-[Web Agency Design](https://bit.ly/figma-web-agency) for `FIGMA` - Open-Source project crafted by [AppSeed](https://appseed.us/).
+Web Agency Design - Open-Source project crafted by [AppSeed](https://appseed.us/).
