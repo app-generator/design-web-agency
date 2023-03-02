@@ -1,13 +1,19 @@
 # [Web Agency Design](https://design-web-agency.appseed-srv1.com/) `FIGMA`
 
-Free **[Web-Agency Design](https://github.com/app-generator/design-web-agency)** Template styled with **Bootstrap 5** using a simple codebase and best practices.
+Open-Source **[Web-Agency Design](https://github.com/app-generator/design-web-agency)** Template styled with **Bootstrap 5** using a simple codebase and best practices - Actively supported by [AppSeed](https://appseed.us/).
 
 - 👉 [Web Agency Design](https://design-web-agency.appseed-srv1.com/): `HTML DEMO`
-- 🛒 **[Buy Figma project](https://appseed.gumroad.com/l/figma-web-agency)**: `ONLY $19`, payment managed by `GUMROAD` 
-  - [See DEMO](https://bit.ly/figma-web-agency) - `FIGMA version`
-  - `Updates`: Lifetime
-  - `Number of Projects`: Unlimited
-- 🚀 Free [Support](https://appseed.us/support/) via Email & Discord
+- 👉 `License` [CC BY 3.0](./LICENSE.md) - `Preserve footer credit`
+
+<br />
+
+> Need More? **🛒 [BUY License](https://appseed.gumroad.com/l/design-web-agency)**: `ONLY $19` (managed by GUMROAD) 
+
+- Access to [FIGMA File](https://bit.ly/figma-web-agency) `view demo`
+- `Remove Footer Credits`
+- `Updates`: Lifetime
+- `Unlimited` hobby & commercial `projects` 
+- 🚀 [Support](https://appseed.us/support/) via Email & Discord
 
 <br />
 
